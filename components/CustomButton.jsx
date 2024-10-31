@@ -10,12 +10,12 @@ const CustomButton = ( {title, handlePress, containerStyles, textStyles, isLoadi
         disabled={isLoading}
     >
 
-      <Text className={`text-white font-psemibold text-lg ${textStyles}`}>
+      <Text className={`text-black font-psemibold text-lg ${textStyles}`}>
         {title}
       </Text>
     </TouchableOpacity>
   )
 }
 
-//hi
+//hi bitch
 export default CustomButton
