@@ -35,7 +35,7 @@ const SignUp = () => {
           {
             text: 'OK',
             onPress: () => {
-              navigation.navigate('sign-in'); // Replace 'SignIn' with the actual route name for your login page
+              navigation.navigate('sign-in');
             }
           }
         ]

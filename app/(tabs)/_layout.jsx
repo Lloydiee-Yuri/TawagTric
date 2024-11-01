@@ -23,6 +23,7 @@ const TabsLayout = () => {
   return (
     <>
     <Tabs
+        initialRouteName="Home"
         screenOptions={{
             tabBarShowLabel: false,
             tabBarActiveTintColor: '#004264',

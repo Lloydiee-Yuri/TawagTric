@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { Image, View, Text, ScrollView } from 'react-native'
 import React from 'react'
-import { router, Redirect, Link } from 'expo-router';
+import { router, Link } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../constants';
 import CustomButton from '../components/CustomButton';
@@ -32,9 +32,6 @@ export default function App() {
               handlePress={ () => router.push('/sign-up') }
               containerStyles="w-[300px] mt-7"
             />
-
-            <Link href="/Home" className="mt-10 text-white">Home
-            </Link>
 
           </View>
         </View>
