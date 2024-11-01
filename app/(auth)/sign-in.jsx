@@ -7,6 +7,8 @@ import  CustomButton  from '../../components/CustomButton'
 import { Link } from 'expo-router'
 
 const SignIn = () => {
+  // const [email, setEmail] = useState('')
+  // const [password, setPassword] = useState('')
   const [form, setForm] = useState({
     email:'',
     password:''
@@ -39,6 +41,7 @@ const SignIn = () => {
           <FormField 
             title="Email"
             value={form.email}
+            // value={email}
             handleChangeText={(e) => setForm({ ...form, email: e })}
             otherStyles="mt-5"
             keyboardType="Email"
@@ -47,6 +50,7 @@ const SignIn = () => {
           <FormField 
             title="Password"
             value={form.password}
+            // value={password}
             handleChangeText={(e) => setForm({ ...form, password: e })}
             otherStyles="mt-7"
             keyboardType="Username"
