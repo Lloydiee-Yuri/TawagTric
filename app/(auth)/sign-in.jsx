@@ -82,7 +82,7 @@ const SignIn = () => {
             value={form.password}
             handleChangeText={(e) => setForm({ ...form, password: e })}
             otherStyles="mt-7"
-            secureTextEntry // Hide password input
+            secureTextEntry
           />
 
           <CustomButton
